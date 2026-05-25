@@ -1,0 +1,74 @@
+.formulario {
+    p {
+        font-size: 1.4rem;
+        color: $grisOscuro;
+        margin: 2rem 0 0 0;
+    }
+    
+    legend {
+        font-size: 2rem;
+        color: $grisOscuro;
+    }
+
+    label {
+        font-weight: $bold;
+        text-transform: uppercase;
+        display: block;
+    }
+
+    // Unifica todos los estilos del textarea AQUÍ
+    textarea {
+        height: 20rem;
+        width: 100%;
+        padding: 1rem;
+        display: block;
+        background-color: $blanco;
+        border: 1px solid $grisClaro;
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+        font-family: inherit; // Hereda la fuente
+        resize: vertical; // Permite redimensionar verticalmente
+        
+        &:focus {
+            outline: none;
+            border-color: $verde;
+        }
+    }
+
+    // Para inputs y select (excluyendo textarea)
+    input:not([type="submit"]):not([type="radio"]),
+    select {
+        padding: 1rem;
+        display: block;
+        width: 100%;
+        background-color: $blanco;
+        border: 1px solid $grisClaro;
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    // Radio buttons específicos
+    input[type="radio"] {
+        margin: 0;
+        width: auto;
+        display: inline-block;
+        margin-left: 1rem;
+    }
+
+    .forma-contacto {
+        max-width: 30rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1rem 0;
+        
+        label {
+            margin-right: 1rem;
+        }
+    }
+
+    // Botón de enviar
+    input[type="submit"] {
+        margin-top: 2rem;
+    }
+}

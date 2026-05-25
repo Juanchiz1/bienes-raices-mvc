@@ -1,0 +1,48 @@
+.iconos-nosotros {
+    @include tablet {
+        @include grid(3, 2rem);
+    }
+}
+
+.iconos-caracteristicas {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0 0 0;
+    gap: 1rem;
+    
+    li {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        flex: 1;
+        
+        img {
+            width: 3.5rem; /* Tamaño correcto para los iconos de la tarjeta */
+            height: auto;
+            margin: 0;
+        }
+        
+        p {
+            margin: 0;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+    }
+}
+
+.icono {
+    text-align: center;
+    
+    img {
+        max-width: 10rem;
+        margin: 0 auto 2rem auto;
+        height: 10rem;
+    }
+    
+    h3 {
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+    }
+}

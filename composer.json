@@ -1,0 +1,22 @@
+{
+    "name": "juandiego/bienesraices-mvc",
+    "description": "Proyecto de Bienes Raíces con arquitectura MVC",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "controllers/",
+            "MVC\\": "src/",
+            "Model\\": "models/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Juan Diego",
+            "email": "juandinegrete2006@outlook.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^7.1"
+    }
+}

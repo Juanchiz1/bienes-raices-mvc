@@ -1,0 +1,1 @@
+{"version":3,"sources":["base/darkMode.scss","base/darkMode.css"],"names":[],"mappings":"AAAA,WACI,qBCCJ","file":"darkMode.css","sourcesContent":[".dark-mode{\r\n    background-color: darken($color: #000000, $amount: 0);\r\n\r\n}",".dark-mode {\n  background-color: black;\n}"]}
